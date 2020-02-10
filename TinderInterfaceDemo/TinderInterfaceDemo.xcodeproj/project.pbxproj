@@ -13,8 +13,18 @@
 		574E1B1C23F1174F00583AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574E1B1A23F1174F00583AEE /* LaunchScreen.storyboard */; };
 		574E1B2723F1175000583AEE /* TinderInterfaceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1B2623F1175000583AEE /* TinderInterfaceDemoTests.swift */; };
 		574E1B3223F1175000583AEE /* TinderInterfaceDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1B3123F1175000583AEE /* TinderInterfaceDemoUITests.swift */; };
+		5780484A23F14BC800B447C1 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780484923F14BC800B447C1 /* APIClient.swift */; };
+		5780484D23F14C6E00B447C1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5780484C23F14C6E00B447C1 /* Alamofire */; };
+		5780485023F14C9200B447C1 /* ObjcExceptionBridging in Frameworks */ = {isa = PBXBuildFile; productRef = 5780484F23F14C9200B447C1 /* ObjcExceptionBridging */; };
+		5780485223F14C9200B447C1 /* XCGLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 5780485123F14C9200B447C1 /* XCGLogger */; };
+		5780485623F14F2D00B447C1 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780485523F14F2D00B447C1 /* TopViewController.swift */; };
+		5780485823F14F9200B447C1 /* WebAPIRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780485723F14F9200B447C1 /* WebAPIRequestProtocol.swift */; };
+		5780485A23F14FCC00B447C1 /* ReturnCodeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780485923F14FCC00B447C1 /* ReturnCodeResult.swift */; };
+		5780485C23F1502600B447C1 /* WebAPIReturnCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780485B23F1502600B447C1 /* WebAPIReturnCode.swift */; };
+		5780485E23F1509E00B447C1 /* String+localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780485D23F1509E00B447C1 /* String+localize.swift */; };
+		5780486123F1510D00B447C1 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 5780486023F1510D00B447C1 /* Reachability */; };
+		5780486323F152A000B447C1 /* Dictionary+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780486223F152A000B447C1 /* Dictionary+JSON.swift */; };
 		57CE082523F1259600A7C6EB /* VerticalCardSwiper in Frameworks */ = {isa = PBXBuildFile; productRef = 57CE082423F1259600A7C6EB /* VerticalCardSwiper */; };
-		57CE082723F1373E00A7C6EB /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE082623F1373E00A7C6EB /* TopViewController.swift */; };
 		57CE082923F1377100A7C6EB /* TopViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CE082823F1377100A7C6EB /* TopViewController.storyboard */; };
 		57CE082B23F137C800A7C6EB /* UIStoryboard+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE082A23F137C800A7C6EB /* UIStoryboard+Instance.swift */; };
 		57CE082E23F139FC00A7C6EB /* ExampleCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE082C23F139FC00A7C6EB /* ExampleCardCell.swift */; };
@@ -51,7 +61,13 @@
 		574E1B2D23F1175000583AEE /* TinderInterfaceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderInterfaceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		574E1B3123F1175000583AEE /* TinderInterfaceDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderInterfaceDemoUITests.swift; sourceTree = "<group>"; };
 		574E1B3323F1175000583AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57CE082623F1373E00A7C6EB /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = SOURCE_ROOT; };
+		5780484923F14BC800B447C1 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5780485523F14F2D00B447C1 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		5780485723F14F9200B447C1 /* WebAPIRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIRequestProtocol.swift; sourceTree = "<group>"; };
+		5780485923F14FCC00B447C1 /* ReturnCodeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnCodeResult.swift; sourceTree = "<group>"; };
+		5780485B23F1502600B447C1 /* WebAPIReturnCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIReturnCode.swift; sourceTree = "<group>"; };
+		5780485D23F1509E00B447C1 /* String+localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+localize.swift"; sourceTree = "<group>"; };
+		5780486223F152A000B447C1 /* Dictionary+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+JSON.swift"; sourceTree = SOURCE_ROOT; };
 		57CE082823F1377100A7C6EB /* TopViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopViewController.storyboard; sourceTree = "<group>"; };
 		57CE082A23F137C800A7C6EB /* UIStoryboard+Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Instance.swift"; sourceTree = "<group>"; };
 		57CE082C23F139FC00A7C6EB /* ExampleCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCardCell.swift; sourceTree = "<group>"; };
@@ -64,6 +80,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57CE082523F1259600A7C6EB /* VerticalCardSwiper in Frameworks */,
+				5780484D23F14C6E00B447C1 /* Alamofire in Frameworks */,
+				5780486123F1510D00B447C1 /* Reachability in Frameworks */,
+				5780485023F14C9200B447C1 /* ObjcExceptionBridging in Frameworks */,
+				5780485223F14C9200B447C1 /* XCGLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,16 +127,12 @@
 		574E1B0E23F1174500583AEE /* TinderInterfaceDemo */ = {
 			isa = PBXGroup;
 			children = (
-				57CE082623F1373E00A7C6EB /* TopViewController.swift */,
-				57CE082C23F139FC00A7C6EB /* ExampleCardCell.swift */,
-				57CE082D23F139FC00A7C6EB /* ExampleCardCell.xib */,
-				57CE082823F1377100A7C6EB /* TopViewController.storyboard */,
-				57CE082A23F137C800A7C6EB /* UIStoryboard+Instance.swift */,
-				574E1B0F23F1174500583AEE /* AppDelegate.swift */,
-				574E1B1123F1174500583AEE /* SceneDelegate.swift */,
+				5780484523F14ABA00B447C1 /* Top */,
+				5780484823F14BA100B447C1 /* Helper */,
+				5780484723F14B4E00B447C1 /* Extension */,
+				5780484623F14B2900B447C1 /* Application */,
 				574E1B1823F1174F00583AEE /* Assets.xcassets */,
 				574E1B1A23F1174F00583AEE /* LaunchScreen.storyboard */,
-				574E1B1D23F1174F00583AEE /* Info.plist */,
 			);
 			path = TinderInterfaceDemo;
 			sourceTree = "<group>";
@@ -139,6 +155,64 @@
 			path = TinderInterfaceDemoUITests;
 			sourceTree = "<group>";
 		};
+		5780484323F14A6D00B447C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57CE082C23F139FC00A7C6EB /* ExampleCardCell.swift */,
+				57CE082D23F139FC00A7C6EB /* ExampleCardCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5780484423F14A8300B447C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5780485523F14F2D00B447C1 /* TopViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5780484523F14ABA00B447C1 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				57CE082823F1377100A7C6EB /* TopViewController.storyboard */,
+				5780484423F14A8300B447C1 /* Controller */,
+				5780484323F14A6D00B447C1 /* View */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		5780484623F14B2900B447C1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				574E1B0F23F1174500583AEE /* AppDelegate.swift */,
+				574E1B1123F1174500583AEE /* SceneDelegate.swift */,
+				574E1B1D23F1174F00583AEE /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5780484723F14B4E00B447C1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5780486223F152A000B447C1 /* Dictionary+JSON.swift */,
+				57CE082A23F137C800A7C6EB /* UIStoryboard+Instance.swift */,
+				5780485D23F1509E00B447C1 /* String+localize.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5780484823F14BA100B447C1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5780484923F14BC800B447C1 /* APIClient.swift */,
+				5780485723F14F9200B447C1 /* WebAPIRequestProtocol.swift */,
+				5780485923F14FCC00B447C1 /* ReturnCodeResult.swift */,
+				5780485B23F1502600B447C1 /* WebAPIReturnCode.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +231,10 @@
 			name = TinderInterfaceDemo;
 			packageProductDependencies = (
 				57CE082423F1259600A7C6EB /* VerticalCardSwiper */,
+				5780484C23F14C6E00B447C1 /* Alamofire */,
+				5780484F23F14C9200B447C1 /* ObjcExceptionBridging */,
+				5780485123F14C9200B447C1 /* XCGLogger */,
+				5780486023F1510D00B447C1 /* Reachability */,
 			);
 			productName = TinderInterfaceDemo;
 			productReference = 574E1B0C23F1174500583AEE /* TinderInterfaceDemo.app */;
@@ -232,6 +310,9 @@
 			mainGroup = 574E1B0323F1174500583AEE;
 			packageReferences = (
 				57CE082323F1259600A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */,
+				5780484B23F14C6E00B447C1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				5780484E23F14C9200B447C1 /* XCRemoteSwiftPackageReference "XCGLogger" */,
+				5780485F23F1510D00B447C1 /* XCRemoteSwiftPackageReference "Reachability" */,
 			);
 			productRefGroup = 574E1B0D23F1174500583AEE /* Products */;
 			projectDirPath = "";
@@ -277,11 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5780485823F14F9200B447C1 /* WebAPIRequestProtocol.swift in Sources */,
 				57CE082E23F139FC00A7C6EB /* ExampleCardCell.swift in Sources */,
-				57CE082723F1373E00A7C6EB /* TopViewController.swift in Sources */,
 				574E1B1023F1174500583AEE /* AppDelegate.swift in Sources */,
+				5780485A23F14FCC00B447C1 /* ReturnCodeResult.swift in Sources */,
 				57CE082B23F137C800A7C6EB /* UIStoryboard+Instance.swift in Sources */,
+				5780485E23F1509E00B447C1 /* String+localize.swift in Sources */,
 				574E1B1223F1174500583AEE /* SceneDelegate.swift in Sources */,
+				5780485C23F1502600B447C1 /* WebAPIReturnCode.swift in Sources */,
+				5780484A23F14BC800B447C1 /* APIClient.swift in Sources */,
+				5780485623F14F2D00B447C1 /* TopViewController.swift in Sources */,
+				5780486323F152A000B447C1 /* Dictionary+JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TinderInterfaceDemo/Info.plist;
+				INFOPLIST_FILE = TinderInterfaceDemo/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TinderInterfaceDemo/Info.plist;
+				INFOPLIST_FILE = TinderInterfaceDemo/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,6 +685,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5780484B23F14C6E00B447C1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		5780484E23F14C9200B447C1 /* XCRemoteSwiftPackageReference "XCGLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DaveWoodCom/XCGLogger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+		5780485F23F1510D00B447C1 /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		57CE082323F1259600A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/JoniVR/VerticalCardSwiper";
@@ -609,6 +720,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5780484C23F14C6E00B447C1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5780484B23F14C6E00B447C1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5780484F23F14C9200B447C1 /* ObjcExceptionBridging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5780484E23F14C9200B447C1 /* XCRemoteSwiftPackageReference "XCGLogger" */;
+			productName = ObjcExceptionBridging;
+		};
+		5780485123F14C9200B447C1 /* XCGLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5780484E23F14C9200B447C1 /* XCRemoteSwiftPackageReference "XCGLogger" */;
+			productName = XCGLogger;
+		};
+		5780486023F1510D00B447C1 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5780485F23F1510D00B447C1 /* XCRemoteSwiftPackageReference "Reachability" */;
+			productName = Reachability;
+		};
 		57CE082423F1259600A7C6EB /* VerticalCardSwiper */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 57CE082323F1259600A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */;
