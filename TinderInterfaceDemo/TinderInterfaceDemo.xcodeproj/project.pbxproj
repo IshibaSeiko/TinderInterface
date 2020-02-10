@@ -15,7 +15,7 @@
 		574E1B1C23F1174F00583AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574E1B1A23F1174F00583AEE /* LaunchScreen.storyboard */; };
 		574E1B2723F1175000583AEE /* TinderInterfaceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1B2623F1175000583AEE /* TinderInterfaceDemoTests.swift */; };
 		574E1B3223F1175000583AEE /* TinderInterfaceDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574E1B3123F1175000583AEE /* TinderInterfaceDemoUITests.swift */; };
-		57CE082223F1239500A7C6EB /* VerticalCardSwiper in Frameworks */ = {isa = PBXBuildFile; productRef = 57CE082123F1239500A7C6EB /* VerticalCardSwiper */; };
+		57CE082523F1259600A7C6EB /* VerticalCardSwiper in Frameworks */ = {isa = PBXBuildFile; productRef = 57CE082423F1259600A7C6EB /* VerticalCardSwiper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57CE082223F1239500A7C6EB /* VerticalCardSwiper in Frameworks */,
+				57CE082523F1259600A7C6EB /* VerticalCardSwiper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 			);
 			name = TinderInterfaceDemo;
 			packageProductDependencies = (
-				57CE082123F1239500A7C6EB /* VerticalCardSwiper */,
+				57CE082423F1259600A7C6EB /* VerticalCardSwiper */,
 			);
 			productName = TinderInterfaceDemo;
 			productReference = 574E1B0C23F1174500583AEE /* TinderInterfaceDemo.app */;
@@ -213,7 +213,7 @@
 				};
 			};
 			buildConfigurationList = 574E1B0723F1174500583AEE /* Build configuration list for PBXProject "TinderInterfaceDemo" */;
-			compatibilityVersion = "Xcode 11.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -222,7 +222,7 @@
 			);
 			mainGroup = 574E1B0323F1174500583AEE;
 			packageReferences = (
-				57CE082023F1239500A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */,
+				57CE082323F1259600A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */,
 			);
 			productRefGroup = 574E1B0D23F1174500583AEE /* Products */;
 			projectDirPath = "";
@@ -594,7 +594,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		57CE082023F1239500A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */ = {
+		57CE082323F1259600A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/JoniVR/VerticalCardSwiper";
 			requirement = {
@@ -605,9 +605,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		57CE082123F1239500A7C6EB /* VerticalCardSwiper */ = {
+		57CE082423F1259600A7C6EB /* VerticalCardSwiper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 57CE082023F1239500A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */;
+			package = 57CE082323F1259600A7C6EB /* XCRemoteSwiftPackageReference "VerticalCardSwiper" */;
 			productName = VerticalCardSwiper;
 		};
 /* End XCSwiftPackageProductDependency section */
