@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "VerticalCardSwiper",
+        "repositoryURL": "https://github.com/JoniVR/VerticalCardSwiper",
+        "state": {
+          "branch": null,
+          "revision": "d1f39b8961ff8132e2088d973d30d2287425a160",
+          "version": "2.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
